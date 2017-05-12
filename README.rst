@@ -37,3 +37,11 @@ Methodology
 3. Create a ``requirements.in`` and ``requirements.txt`` file similar to the examples above.
 4. Configure pyup.io to run against the repository.
 5. Upload a new version of ``text-alexwlchan-foo``.
+
+Outcome
+*******
+
+Success!
+
+pyup.io and pip-tools play nicely together.
+If you look at `the pull request <https://github.com/alexwlchan/pyup-testing/pull/2/files>`_ raised by pyup.io, it's only modified the version number, and left the comment intact.
