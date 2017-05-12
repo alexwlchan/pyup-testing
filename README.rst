@@ -3,7 +3,7 @@ pyup-testing
 
 This is a little bit of experimenting to test the interaction between `pyup.io <https://pyup.io/>`_ and `pip-tools <https://github.com/jazzband/pip-tools>`_, motivated by a proposed patch to `hypothesis-python <https://github.com/HypothesisWorks/hypothesis-python/pull/623#issuecomment-301152892>`_.
 
-pip-tools gives us a nice way to manage our ``requirements.txt`` files, by specifying our top-level dependencies in a single file and then building a separate file that pins the entire dependency tree::
+pip-tools gives us a nice way to manage our ``requirements.txt`` files, by specifying our top-level dependencies in a single file and then building a separate file that pins the entire dependency tree:
 
 .. code-block:: console
 
